@@ -1,6 +1,6 @@
 # Gaurav Ghodage
 
-### DevOps Engineer · SRE · Kubernetes · AWS
+### DevOps Engineer · Kubernetes · AWS
 
 **Building reliable infrastructure, safer deployments, and automation for distributed systems.**
 
@@ -15,13 +15,13 @@
 
 ---
 
-## 🚀 Featured Project
+## Featured Project
 
 ### Blast-Radius Guard
 
 **Safe configuration delivery for distributed Kubernetes systems.**
 
-A production-style DevOps/SRE engineering project that validates configuration, verifies integrity and signatures, progressively promotes changes across Kubernetes cells, monitors health, and automatically halts and rolls back unsafe releases.
+A production-style DevOps engineering project that validates configuration, verifies integrity and signatures, progressively promotes changes across Kubernetes cells, monitors health, and automatically halts and rolls back unsafe releases.
 
 **Validation → Signing → Staged Rollout → Health Gate → Automatic Rollback**
 
@@ -32,7 +32,7 @@ A production-style DevOps/SRE engineering project that validates configuration, 
   <a href="https://github.com/gauravghodevs/k8s-config-consumer/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/gauravghodevs/k8s-config-consumer/ci.yml?branch=main&style=for-the-badge&label=Build" alt="Build status">
   </a>
-  <img src="https://img.shields.io/badge/tests-28%20passing-2ea44f?style=for-the-badge&logo=pytest" alt="28 tests passing">
+  <img src="https://img.shields.io/badge/tests-31%20passing-2ea44f?style=for-the-badge&logo=pytest" alt="31 tests passing">
 </p>
 
 **Engineering highlights**
@@ -53,7 +53,7 @@ A production-style DevOps/SRE engineering project that validates configuration, 
 
 ---
 
-## 🧭 Architecture at a Glance
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -81,7 +81,7 @@ flowchart LR
 
 ---
 
-## 📊 Engineering Dashboard
+## Engineering Dashboard
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gauravghodevs&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" height="165" alt="GitHub statistics">
@@ -94,14 +94,13 @@ flowchart LR
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Cloud & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="Amazon S3">
-  <img src="https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS IAM">
   <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible">
 </p>
 
 ### Containers & Platform
@@ -118,31 +117,32 @@ flowchart LR
   <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana">
 </p>
 
-### Engineering & Automation
+### Core Engineering
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Networking-0A0A0A?style=flat-square" alt="Networking">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
 ---
 
-## 🎯 What I Build
+## What I Build
 
 - Reliable CI/CD pipelines and deployment workflows
 - Kubernetes operations and configuration delivery systems
-- Infrastructure automation with Terraform
-- Cloud infrastructure and AWS automation
-- Observability and operational tooling
+- Infrastructure automation with Terraform and Ansible
+- AWS cloud infrastructure and automation
+- Observability with Prometheus and Grafana
 - Failure handling, rollback, and recovery mechanisms
-- Security controls around configuration and releases
+- Secure and repeatable deployment workflows
 
 ---
 
-## 🔭 Current Engineering Focus
+## Current Focus
 
-**Kubernetes · AWS · CI/CD · Observability · Infrastructure as Code · Production Automation**
+**Linux · Networking · Git · Docker · CI/CD · Terraform · Ansible · Kubernetes · Prometheus · Grafana**
 
 I focus on understanding **why systems fail, how to reduce deployment risk, and how to automate recovery** rather than only automating the happy path.
 
@@ -150,7 +150,7 @@ I focus on understanding **why systems fail, how to reduce deployment risk, and 
 
 ---
 
-## 📌 Featured Repository
+## Featured Repository
 
 ### [Blast-Radius Guard](https://github.com/gauravghodevs/k8s-config-consumer)
 
@@ -158,17 +158,17 @@ I focus on understanding **why systems fail, how to reduce deployment risk, and 
 
 A local production-style simulation of progressive configuration delivery with validation, cryptographic signing, health-gated promotion, automatic rollback, observability, and state recovery.
 
-**Verified project signals:** 28 automated tests · 3 Kubernetes cells · Ed25519 signing · S3 versioning · Prometheus metrics · Terraform · CI/CD
+**Verified project signals:** 31 automated tests · 3 Kubernetes cells · Ed25519 signing · S3 versioning · Prometheus metrics · Terraform · CI/CD
 
 ---
 
-## 🤝 Let's Connect
+## Contact
 
-I'm interested in opportunities involving **DevOps, SRE, Cloud Infrastructure, Kubernetes, Platform Engineering, and CI/CD**.
+I'm interested in **DevOps Engineer** opportunities involving cloud infrastructure, Kubernetes, CI/CD, automation, and infrastructure as code.
 
-**Best way to reach me:** [GitHub profile](https://github.com/gauravghodevs)
+**GitHub:** [github.com/gauravghodevs](https://github.com/gauravghodevs)
 
-If you're reviewing my work, start with **Blast-Radius Guard** — it is the project that best represents how I approach reliability, automation, and safe delivery.
+If you're reviewing my work, start with **Blast-Radius Guard** — it best represents how I approach reliability, automation, and safe delivery.
 
 ---
 

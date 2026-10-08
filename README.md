@@ -15,7 +15,7 @@
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### Blast-Radius Guard
 
@@ -35,8 +35,6 @@ A production-style DevOps engineering project that validates configuration, veri
   <img src="https://img.shields.io/badge/tests-31%20passing-2ea44f?style=for-the-badge&logo=pytest" alt="31 tests passing">
 </p>
 
-**Engineering highlights**
-
 | Area | Implementation |
 |---|---|
 | Configuration safety | Schema + semantic validation + duplicate/dangerous-rule checks |
@@ -49,35 +47,19 @@ A production-style DevOps engineering project that validates configuration, veri
 | Observability | Prometheus consumer + controller metrics |
 | Automation | GitHub Actions + Terraform + Python |
 
-**→ [Open the project](https://github.com/gauravghodevs/k8s-config-consumer)**
+**→ [Open Blast-Radius Guard](https://github.com/gauravghodevs/k8s-config-consumer)**
 
----
+### SecureOps
 
-## Architecture
+**Enterprise DevSecOps platform built incrementally around Kubernetes/OpenShift.**
 
-```mermaid
-flowchart LR
-    A[Configuration] --> B[Validate]
-    B --> B1[Schema]
-    B --> B2[Semantic]
-    B --> B3[SHA-256]
-    B --> B4[Ed25519]
-    B1 --> C[Promote]
-    B2 --> C
-    B3 --> C
-    B4 --> C
-    C --> D[INTERNAL]
-    D --> E[1%]
-    E --> F[10%]
-    F --> G[100%]
-    G --> H[Health Gate]
-    H -->|Healthy| I[Next Stage]
-    H -->|Failure| J[HALT]
-    J --> K[ROLLBACK]
-    K --> L[Known-Good Config]
-```
+A portfolio platform focused on secure application delivery, containerization, Kubernetes operations, security gates, GitOps, infrastructure automation, observability, and production troubleshooting.
 
-> **Design principle:** reduce blast radius before increasing exposure.
+**Current implementation:** FastAPI payment service · pytest · Docker · Trivy · Kubernetes · Kind · Kustomize · Prometheus metrics
+
+**Target platform:** Jenkins · Tekton · SonarQube · Dependency-Track · CycloneDX · Argo CD · OpenShift · Terraform · Ansible · Grafana · Alertmanager · ELK
+
+**→ [Open SecureOps](https://github.com/gauravghodevs/DB19)**
 
 ---
 
@@ -130,13 +112,13 @@ flowchart LR
 
 ## What I Build
 
-- Reliable CI/CD pipelines and deployment workflows
-- Kubernetes operations and configuration delivery systems
+- Reliable CI/CD and deployment workflows
+- Kubernetes operations and configuration delivery
 - Infrastructure automation with Terraform and Ansible
 - AWS cloud infrastructure and automation
 - Observability with Prometheus and Grafana
 - Failure handling, rollback, and recovery mechanisms
-- Secure and repeatable deployment workflows
+- Secure and repeatable delivery workflows
 
 ---
 
@@ -150,25 +132,13 @@ I focus on understanding **why systems fail, how to reduce deployment risk, and 
 
 ---
 
-## Featured Repository
-
-### [Blast-Radius Guard](https://github.com/gauravghodevs/k8s-config-consumer)
-
-`Python` · `Kubernetes` · `Docker` · `AWS S3` · `Terraform` · `Prometheus` · `GitHub Actions`
-
-A local production-style simulation of progressive configuration delivery with validation, cryptographic signing, health-gated promotion, automatic rollback, observability, and state recovery.
-
-**Verified project signals:** 31 automated tests · 3 Kubernetes cells · Ed25519 signing · S3 versioning · Prometheus metrics · Terraform · CI/CD
-
----
-
 ## Contact
 
-I'm interested in **DevOps Engineer** opportunities involving cloud infrastructure, Kubernetes, CI/CD, automation, and infrastructure as code.
+I'm interested in **DevOps Engineer** opportunities involving cloud infrastructure, Kubernetes, CI/CD, automation, infrastructure as code, and production operations.
 
 **GitHub:** [github.com/gauravghodevs](https://github.com/gauravghodevs)
 
-If you're reviewing my work, start with **Blast-Radius Guard** — it best represents how I approach reliability, automation, and safe delivery.
+If you're reviewing my work, start with **Blast-Radius Guard** for progressive delivery and reliability engineering, then **SecureOps** for the broader DevSecOps platform.
 
 ---
 
